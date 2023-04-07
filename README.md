@@ -1,2 +1,2 @@
-# Python
+# Python.
  Meus projetos em Python
