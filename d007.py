@@ -1,5 +1,3 @@
-n1 = int(input("Digite seu numero: "))
-d = n1 * 2
-t = n1 * 3
-r = n1 **(1/2)
-print(f"O dobro do numero {n1} é {d}\nO triplo do numero {n1} é {t}\nE a raiz quadrada do numero {n1} é {r:.3f}")
+nota1 = int(input("Digite a sua primeira nota: "))
+nota2 = int(input("Digite a sua segunda nota: "))
+print(f"A media entre a nota {nota1} e a nota {nota2} é {(nota1 + nota2) / 2}")

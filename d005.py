@@ -1,18 +1,5 @@
-a = input("Digite Algo: ")
-#print("O tipo primitivo deste algo é: ",type(a))
-#print("São Letras?",a.isalpha())
-#print("São Numeros?",a.isnumeric())
-#print("Possui letras e/ou numeros?",a.isalnum())
-#print("Possui apenas letras maiusculas?",a.isupper())
-#print("Possui apenas letras minusculas?",a.islower())
-#print("Esta capitalizada?",a.istitle())
-#print("Possui apenas espaços?",a.isspace())
-print(f"O tipo primitivo deste algo é: {type(a)}")
-print(f"São Letras? {a.isalpha()}")
-print(f"São Numeros? {a.isnumeric()}")
-print(f"Possui apenas letras maisculas? {a.isupper()}")
-print(f"Possui apenas letras minusculas? {a.islower()}")
-print(f"Esta capitalizada? {a.istitle()}")
-print(f"Possui apenas espaços? {a.isspace()}")
-
-
+n1 = int(input("Digite um numero: "))
+#a = n1 - 1
+#s = n1 + 1
+#print(f"O sucessor do numero {n1} é {s} \nO Antecessor do numero {n1} é {a}")
+print(f"O sucessor do numero {n1} é {n1 + 1}\nO antecessor desse mesmo numero é {n1 - 1}")
