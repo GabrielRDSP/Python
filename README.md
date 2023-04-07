@@ -1,4 +1,4 @@
 # Python - Exercicios.
- Meus exercicios em python.
+ Meus exercícios em Python.
  
  Curso: CursoemVideo 
