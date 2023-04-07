@@ -1,13 +1,14 @@
 numero = float(input("Digite a quantidade de Metros: "))
-deci = numero * 10
-cent = numero * 100
-mili = numero * 1000
-deca = numero /10
-hect = numero /100
-quil = numero /1000
-print(f"A quantidade de {numero} Metros é o que vale a {deca} Decâmetros!")
-print(f"A quantidade de {numero} Metros é o que vale a {hect} Hectômetros!")
-print(f"A quantidade de {numero} Metros é o que vale a {quil} Quilômetros!")
-print(f"A quantidade de {numero} Metros é o que vale a {deci} Decímetros!")
-print(f"A quantidade de {numero} Metros é o que vale a {cent} Centímetros!")
-print(f"A quantidade de {numero} Metros é o que vale a {mili} Milímetros")
+km = numero /1000
+hm = numero /100
+dam = numero /10
+dm = numero * 10
+cm = numero * 100
+mm = numero * 1000
+print(f"A quantidade de {numero}m  é o que vale a {km}km!")
+print(f"A quantidade de {numero}m  é o que vale a {hm}hm!")
+print(f"A quantidade de {numero}m é o que vale a {dam}dam!")
+print(f"A quantidade de {numero}m é o que vale a {dm}dm")
+print(f"A quantidade de {numero}m é o que vale a {cm}cm!")
+print(f"A quantidade de {numero}m é o que vale a {mm}mm!")
+#Quilômetro,Hectômetro,Decâmetro,Metro,Decímetro,Centímetro,Milímetro
