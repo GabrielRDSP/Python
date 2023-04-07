@@ -1,2 +1,3 @@
-# Python.
- Meus projetos em Python
+# Python - Exercicios.
+ Meus exercicios em python.
+ Curos: CursoemVideo 
