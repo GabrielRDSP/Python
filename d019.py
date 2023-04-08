@@ -6,4 +6,3 @@ a4 = input("Quarto aluno: ")
 lista = [a,a2,a3,a4]
 escolhido = random.choice(lista)
 print(f"O aluno escolhido foi: {escolhido}")
-#[] = Lista
