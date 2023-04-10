@@ -1,0 +1,5 @@
+numero = str(input("Digite um numero de 1 a 9999: "))
+print(f"A unidade desse numero é: {numero[3]}")
+print(f"A dezena desse numero é: {numero[2]}")
+print(f"A centena desse numero é: {numero[1]}")
+print(f"O milhar desse numero é: {numero[0]}")
